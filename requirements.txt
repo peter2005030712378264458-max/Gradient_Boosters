@@ -1,0 +1,23 @@
+# Core data/document readers
+pandas
+pyarrow
+openpyxl
+xlrd
+python-docx
+pypdf
+pdfplumber
+beautifulsoup4
+Pillow
+pytesseract
+pypdfium2
+striprtf
+
+# Optional universal document converter. If it is not installed, the project uses local fallback extractors.
+docling
+
+# Optional fallback for legacy .doc files. It can require extra system packages on some platforms.
+# textract
+
+# System tools used by some extractors and installed outside pip:
+# - tesseract with rus/eng language data for OCR
+# - ffmpeg and ffprobe for video frame extraction
